@@ -1,0 +1,248 @@
+header{
+    height:550px
+    
+}
+#menu_msg{
+    display: flex;
+    flex-direction: column;
+    width: 1800px;
+    margin-right: 800px;
+}
+#menu{
+    display: flex;
+    flex-direction: row;
+    padding-left: 30px;
+    width: 2400px;
+    height: 200px;
+    margin-bottom: 150px;
+}
+#msg{
+    width: 1800px;
+    height: 200px;
+}
+
+a{
+    padding-left: 150px;
+    padding-top: 110px;
+    font-size: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+#header{
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    background-color: white;
+}
+#Logo img{
+    display: flex;
+    flex-direction: row;
+    width: 750px;
+    height: fit-content;
+    padding-top: 60px;
+}
+#icons{
+    width: 5000px;
+    margin-left: 1600px;
+    padding-top: 110px;
+
+}
+#icons * {
+    font-size: 100px;
+    padding-right: 130px;
+    
+}
+#slider{
+    display:flex;
+   flex-direction: column;
+}
+
+#row2{
+    width: 6057px;
+    height: 2687px;
+    display: flex;
+    flex-direction: row;
+}
+.row3{
+    display: flex;
+    flex-direction: row;
+    width: 6057px;
+    height: 2687px;
+}
+.row4{
+    display: flex;
+    flex-direction: row;
+    width: 6057px;
+    height: 1994px;
+    background-image: url(./images/hushpuppies.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* .row4:hover{
+    background-color: black;
+    
+} */
+.row5{
+    display: flex;
+    flex-direction: column;
+    width: 6057px;
+    height: 370px;
+    font-size: 80px;
+    text-align: center;
+}
+.row6{
+    display: flex;
+    flex-direction: row;
+    width: 6057px;
+    height: 1370px;
+    background-color: aquamarine;
+}
+
+#men{
+    height: 2687px;
+    width: 4543px;
+    background-image: url(./images/menshoes.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#Kids{
+    width: 3000px;
+    height: 2687px;
+    background-image: url(./images/kidsshoes.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.accessories{
+    width: 3000px;
+    height: 2687px;
+    background-image: url(./images/accessories.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.women{
+    height: 2687px;
+    width: 5543px;
+    background-image: url(./images/womenshoes.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.b{    
+    width: 550px;
+    height: 130px;
+    border-radius: 0;
+    background-color: white;
+    color: black;
+    font-size: 52px;
+}
+.block{
+    
+    width: 1515px;
+    height: 1370px;
+}
+#shoe1{
+    background-image: url(./images/shoe1.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#shoe2{
+    background-image: url(./images/shoe2.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#shoe3{
+    background-image: url(./images/shoe3.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#shoe4{
+    background-image: url(./images/shoe4.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.box{
+   font-size: 70px;
+   color: white;
+   text-align: center;
+   padding-top: 25px;
+    margin-left: 1269px;
+    width: 246px;
+    height: 110px;
+    background-color:rgb(167, 114, 44);
+}
+
+.description{
+    font-size: 51px;
+    padding-left: 519px;
+    padding-top: 1300px;
+}
+.price{
+    display: flex;
+    flex-direction: row;
+    font-size: 51px;
+    padding-left: 435px;
+    padding-top: 28px;
+}
+
+
+.announcement{
+    display: flex;
+    flex-direction: row;
+    height: 70px;
+    width: 6057px;
+    background-color: black;
+    font-size: 60px;
+    color: white;
+    align-items: center;
+    margin-top: 606px;
+    padding-top: 70px;
+} 
+.lastsection{
+    width: 3970px;
+    height: 1400px;
+    padding-top: 250px;
+    padding-left: 2086px;
+    font-size: 70px;
+    letter-spacing: 4px;
+    font-size: 55px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+   margin-top: 156px;
+   margin-left: 275px;
+
+}
+#button{
+    margin-top: 2px;
+    margin-left: 5px;
+}
+.lastrow{
+   display: flex;
+   flex-direction: row;
+margin-right: 10px;
+align-items: center;
+width: 4000px;
+}
+.icons2 *{
+    display: flex;
+    flex-direction: row;
+    font-size: 60px;
+    margin-left: 40px;
+    margin-top: 300px;
+    padding-right: 60px;
+}
+.copyrights{
+    display: flex;
+    flex-direction: column;
+    width: 6057px;
+    height: 277px;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 10px;
+    margin-top: -99px;
+
+}
+
+
+
