@@ -71,15 +71,14 @@ a{
     height: 2687px;
 }
 .row4{
-    display: flex;
-    flex-direction: row;
     width: 6057px;
     height: 1994px;
-    background-image: url(./images/hushpuppies.webp);
-    background-repeat: no-repeat;
-    background-size: cover;
+ 
 }
-
+.row4 img{
+    width: 100%;
+    height: 100%
+}
 .row5{
     display: flex;
     flex-direction: column;
@@ -95,67 +94,71 @@ a{
     height: 1370px;
     background-color: aquamarine;
 }
+.men{
+    height: 2867px;
+    width: 4411px;
+    
+}
 
-#men{
-    height: 2687px;
-    width: 4543px;
-    background-image: url(./images/menshoes.webp);
-    background-repeat: no-repeat;
-    background-size: cover;
+
+.men,.kids,.accessories,.women{
+    background-color: #232323;
 }
-#Kids{
-    width: 3000px;
-    height: 2687px;
-    background-image: url(./images/kidsshoes.webp);
-    background-repeat: no-repeat;
-    background-size: cover;
+
+.men img, .kids img, .accessories img, .women img {
+    height: 100%;
+    width: 100%;
+    transition: all 0.5s ease; /* Smooth transition */
 }
-.accessories{
-    width: 3000px;
-    height: 2687px;
-    background-image: url(./images/accessories.webp);
-    background-repeat: no-repeat;
-    background-size: cover;
+
+.men:hover img, .kids:hover img, .accessories:hover img, .women:hover img {
+    box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.7); /* Black shadow on hover */
 }
-.women{
-    height: 2687px;
-    width: 5543px;
-    background-image: url(./images/womenshoes.webp);
-    background-repeat: no-repeat;
-    background-size: cover;
+
+
+  
+.kids{
+    height: 2867px;
+    width: 2687px;
 }
+.accessories:hover {
+    box-shadow: inset 0 8px 16px rgba(0, 0, 0,0.5);
+  }
+
 .b{    
     width: 550px;
     height: 130px;
+    position: absolute;
     border-radius: 0;
     background-color: white;
     color: black;
     font-size: 52px;
 }
+#mb{
+    padding-right: 10px;
+}
+
 .block{
     
     width: 1515px;
     height: 1370px;
 }
-#shoe1{
-    background-image: url(./images/shoe1.webp);
-    background-repeat: no-repeat;
-    background-size: cover;
+#shoe1 img{
+    height: 100%;
+    width: 100%;
+    
 }
-#shoe2{
-    background-image: url(./images/shoe2.webp);
-    background-repeat: no-repeat;
-    background-size: cover;
+#shoe2 img{
+    height: 100%;
+    width: 100%;
 }
-#shoe3{
-    background-image: url(./images/shoe3.webp);
-    background-repeat: no-repeat;
-    background-size: cover;
+#shoe3 img{
+    height: 100%;
+    width: 100%;
 }
-#shoe4{
-    background-image: url(./images/shoe4.webp);
-    background-repeat: no-repeat;
-    background-size: cover;
+#shoe4 img {
+    height: 100%;
+    width: 100%;
 }
 .box{
    font-size: 70px;
@@ -171,7 +174,7 @@ a{
 .description{
     font-size: 51px;
     padding-left: 519px;
-    padding-top: 1300px;
+    /* padding-top: 1300px; */
 }
 .price{
     display: flex;
