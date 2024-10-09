@@ -1,172 +1,248 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel = "stylesheet" href ="hushpuppies.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-
-    <link rel = "icon" href ="https://example.com/favicon.ico">
-
-</head>
-<body>
-  <header>
-    <!-- outer div -->
-    <div id="header"> 
-          <!-- Div to represent the menu -->
-        <div id="menu_msg">
-             <div id="menu">
-                  <a><b>New Arrivals</b></a>
-                  <a><b>Men</b></a>
-                  <a><b>Women</b></a>
-                  <a><b>Kids</b></a>
-                  <a><b>Accesories</b></a> 
-             </div>
-               <div id="msg">
-              <a style="color: brown;font-size: 55px;"><b>Last Chance - Upto 50% Off</b></a>
-                </div>
-          </div>
-              <!-- Div to represent logo -->
-            <div id="Logo">
-              <img src=".//images/logo.webp" atl= "Dog">
-            </div>
-          <div id="icons">
-            <i class="fa-solid fa-magnifying-glass "></i>
-            <i class="fa-regular fa-face-grin"></i>
-            <i class="fa-regular fa-heart"></i>
-            <i class="fa-solid fa-bag-shopping"></i>
-          </div>
-
- </div>    
-  </header>
-   
-    <main>
-<!-- section 1 of main -->
-        <div id="slider">
-                <img src=".//images/shoe.webp" atl= "loading">
-                
-        </div>
-       
-        <div id="row2">
-          <div class="men">
-             <img src="./images/menshoes.webp" alt="Loading">
-              <button class="b" id="mb" style="margin-top: 2276px;margin-left: -2116px;"><b>MEN</b></button>
-          </div>
-          <div class= "kids" >
-            <img src="./images/kidsshoes.webp" alt="Loading">
-            <button class="b" id="kb" style="margin-top: 2276px;    margin-left: -1415px;"><b>KIDS</b></button>
-        </div>
-        </div>
-<!-- section 2 of main -->
- <div class="row3 max">
-
-    <div class="accessories">
-      <img src="./images/accessories.webp" alt="Loading">
-      <button class="b" id="ab" style="margin-top: 2276px;margin-left: -1331px;"><b>ACCESORIES</b></button>
-    </div>
-    <div class="women">
-      <img src="./images/womenshoes.webp" alt="Loading">
-    <button class="b" id="wb" style="margin-top: 2276px;margin-left: -2125px;"><b>WOMEN</b></button>
-
-    </div>
-
- </div>
-<!-- section 3 of main -->
- <div class="row4">
-  <img src="/images/hushpuppies.webp " alt="hushpuppies">
- </div>
- <!-- section 4 of main -->
-  <div class="row5">
-    <p style="margin-top:60px ;margin-bottom: 10px;letter-spacing: 4px;" ><b>LAST CHANCE UPTO 50% OFF </b></p>
+header{
+    height:550px
     
-    <p style="color: brown;font-size: 60px;">VIEW ALL</p>
-  </div>
-<!-- section 5 of main -->
-<div class="row6">
-  <div class="block" id="shoe1">
-    <img src="./images/shoe1.webp" alt="shoe1">
-      <div class="box">-23%</div>
-        <div class="description"><span>Brian Flexmax</span></div>
-           <div class=price>
-             <span style="padding-right: 30px;"><del>Rs.9,999.00</del></span> 
-            <span style="color: red;">Rs.7,699.00</span> 
-        </div>
-  </div>
-  <div class="block" id="shoe2">
-    <img src="./images/shoe2.webp" alt="shoe2">
-    <div class="box">-23%</div>
-    <div class="description"> <span>Hogg Flexmax</span></div>
-    <div class=price>
-      <span style="padding-right: 30px;"><del>9,999.00</del></span> 
-      <span style="color: red;">Rs.7,699.00</span> 
-     </div>
-  </div>
-  <div class="block" id="shoe3">
-    <img src="./images/shoe3.webp" alt="shoe3">
-    <div class="box">-23%</div>
-        <div class="description"><span>Arson Deton</span> </div>
-        <div class=price>
-          <span style="padding-right: 30px;"><del>7,999.00</del></span> 
-          <span style="color: red;">Rs.6,199.00</span> 
-         </div>
-  </div>
+}
+#menu_msg{
+    display: flex;
+    flex-direction: column;
+    width: 1800px;
+    margin-right: 800px;
+}
+#menu{
+    display: flex;
+    flex-direction: row;
+    padding-left: 30px;
+    width: 2400px;
+    height: 200px;
+    margin-bottom: 150px;
+}
+#msg{
+    width: 1800px;
+    height: 200px;
+}
 
-  <div class="block" id="shoe4">
-    <img src="./images/shoe4.webp" alt="shoe4">
-    <div class="box">-23%</div>
-    <div class="description"><span>Miles Deton</a> </div>
-    <div class=price>
-     <span style="padding-right: 30px;"><del>Rs.7,999.00</del></span> 
-     <span style="color: red;">Rs.6,099.00</span> 
-    </div>
-
-  </div>
-</div>
-    </main>
-
-    <footer>
-      <div class="announcement">
-            <pre><span>Helpline: 042-111-FIRHAJ (347-425) Business Days: Monday to Friday (9:30 AM - 5:30 PM)      FREE shipping on prepaid orders.      200 PKR standard shipping rate for other orders.       
-      </div>
-
-      <div class="lastsection">
-        <span style="padding-top: 50px;margin-left: 29px;">RECIEVE EXCLUSIVE PROMOTIONS, PRIVATE SALES AND NEWS</span>
-         <form>
-        <input style="height: 116px; width: 1367px;font-size: 52px;letter-spacing: 3px;border: none;border-bottom: 2px solid black;" type = "text" placeholder = "Email Address">
-        <br>        
-        <input id="button" style="width: 1367px;height: 172px;font-size: 60px;background-color: black;color: white;"  type="button" value ="SUBSCRIBE">
-      </form>
-      <div style="margin-left:-422px ;" class="lastrow">
-        <ul style="list-style-type: none;display: inline;">
-          <li style="display: inline;padding-right: 50px;">My Account</li>
-          <li style="display: inline;padding-right: 50px;">Customer Services</li>
-          <li style="display: inline;padding-right: 50px;" >Returns & Exxchanges</li>
-          <li style="display: inline;padding-right: 50px;">Bulk Orders</li>
-          <li style="display: inline;padding-right: 50px;">About Us</li>
-          <li style="display: inline;padding-right: 50px;">Blogs</li>
-          <li style="display: inline;padding-right: 50px;"><img style="width: 310px;height: 99px;" src="https://www.hushpuppies.com.pk/cdn/shop/files/giftkarte_75x.png?v=1714371031loading" alt=""></li>
-        </ul>
-
-       </div>
-       <div style="margin-left: 526px;" class="icons2">
-        <i class="fa-brands fa-facebook" ></i>
-        <i class="fa-brands fa-twitter"></i>
-        <i class="fa-brands fa-instagram"></i>
-        <i class="fa-brands fa-youtube"></i>
-        <i class="fa-brands fa-tiktok"></i>
+a{
+    padding-left: 150px;
+    padding-top: 110px;
+    font-size: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+}
 
 
-       </div>
-        </div>
-       <br>
-       <div class="copyrights">
-        <p style="margin-bottom: 10px;">Copyright © 2023 Hush Puppies all rights reserved.</p>
-          <p style="margin-top: 10px;">Tech by Ozeefy</p>
-       </div>
-       
-       
-    </footer>
+#header{
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    background-color: white;
+}
+#Logo img{
+    display: flex;
+    flex-direction: row;
+    width: 750px;
+    height: fit-content;
+    padding-top: 60px;
+}
+#icons{
+    width: 5000px;
+    margin-left: 1600px;
+    padding-top: 110px;
 
-</body>
-</html>
+}
+#icons * {
+    font-size: 100px;
+    padding-right: 130px;
+    
+}
+#slider{
+    display:flex;
+   flex-direction: column;
+}
+
+#row2{
+    width: 6057px;
+    height: 2687px;
+    display: flex;
+    flex-direction: row;
+}
+.row3{
+    display: flex;
+    flex-direction: row;
+    width: 6057px;
+    height: 2687px;
+}
+.row4{
+    width: 6057px;
+    height: 1994px;
+ 
+}
+.row4 img{
+    width: 100%;
+    height: 100%
+}
+.row5{
+    display: flex;
+    flex-direction: column;
+    width: 6057px;
+    height: 370px;
+    font-size: 80px;
+    text-align: center;
+}
+.row6{
+    display: flex;
+    flex-direction: row;
+    width: 6057px;
+    height: 1370px;
+    background-color: aquamarine;
+}
+.men{
+    height: 2867px;
+    width: 4411px;
+    
+}
+
+
+.men,.kids,.accessories,.women{
+    background-color: #232323;
+}
+
+.men img, .kids img, .accessories img, .women img {
+    height: 100%;
+    width: 100%;
+    transition: all 0.5s ease; /* Smooth transition */
+}
+
+.men:hover img, .kids:hover img, .accessories:hover img, .women:hover img {
+    box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.7); /* Black shadow on hover */
+}
+
+
+  
+.kids{
+    height: 2867px;
+    width: 2687px;
+}
+.accessories:hover {
+    box-shadow: inset 0 8px 16px rgba(0, 0, 0,0.5);
+  }
+
+.b{    
+    width: 550px;
+    height: 130px;
+    position: absolute;
+    border-radius: 0;
+    background-color: white;
+    color: black;
+    font-size: 52px;
+}
+#mb{
+    padding-right: 10px;
+}
+
+.block{
+    
+    width: 1515px;
+    height: 1370px;
+}
+#shoe1 img{
+    height: 100%;
+    width: 100%;
+    
+}
+#shoe2 img{
+    height: 100%;
+    width: 100%;
+}
+#shoe3 img{
+    height: 100%;
+    width: 100%;
+}
+#shoe4 img {
+    height: 100%;
+    width: 100%;
+}
+.box{
+   font-size: 70px;
+   color: white;
+   text-align: center;
+   padding-top: 25px;
+    margin-left: 1269px;
+    width: 246px;
+    height: 110px;
+    background-color:rgb(167, 114, 44);
+}
+
+.description{
+    font-size: 51px;
+    padding-left: 519px;
+    /* padding-top: 1300px; */
+}
+.price{
+    display: flex;
+    flex-direction: row;
+    font-size: 51px;
+    padding-left: 435px;
+    padding-top: 28px;
+}
+
+
+.announcement{
+    display: flex;
+    flex-direction: row;
+    height: 70px;
+    width: 6057px;
+    background-color: black;
+    font-size: 60px;
+    color: white;
+    align-items: center;
+    margin-top: 606px;
+    padding-top: 70px;
+} 
+.lastsection{
+    width: 3970px;
+    height: 1400px;
+    padding-top: 250px;
+    padding-left: 2086px;
+    font-size: 70px;
+    letter-spacing: 4px;
+    font-size: 55px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+   margin-top: 156px;
+   margin-left: 275px;
+
+}
+#button{
+    margin-top: 2px;
+    margin-left: 5px;
+}
+.lastrow{
+   display: flex;
+   flex-direction: row;
+margin-right: 10px;
+align-items: center;
+width: 4000px;
+}
+.icons2 *{
+    display: flex;
+    flex-direction: row;
+    font-size: 60px;
+    margin-left: 40px;
+    margin-top: 300px;
+    padding-right: 60px;
+}
+.copyrights{
+    display: flex;
+    flex-direction: column;
+    width: 6057px;
+    height: 277px;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 10px;
+    margin-top: -99px;
+
+}
+
+
+
